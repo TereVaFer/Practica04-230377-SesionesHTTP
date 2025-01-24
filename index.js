@@ -54,8 +54,8 @@ const getLocalIp = () => {
 // Bienvenida a la API
 app.get("/welcome", (req, res) => {
     return res.status(200).json({
-        message: "Bienvenido a la API de Teresa Vargas F.",
-        author: "Teresa Vargas Fernandez",
+        message: "Bienvenido a la API de Control de Sesion.",
+        author: "Teresa Vargas Fernández",
     });
 });
 
